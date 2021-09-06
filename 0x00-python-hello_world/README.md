@@ -82,5 +82,5 @@ all types and functions used in [linked_lists.c](./linked_lists.c) and [10-check
   * [101-compile](./101-compile): Python script that compiles a Python script file store in the environment variable `$PYFILE` and saves it to an output file `$PYFILEc` (ex. `export PYFILE=my_main.py` => output filename: `my_main.pyc`).
 
 										
-* **13. ByteCode -> Python #1
+* **13. ByteCode -> Python #1**
   * [102-magic_calculation.py](./103-magic_calculation.py): Python function matching exactly a bytecode provided by Holberton School.
