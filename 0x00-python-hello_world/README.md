@@ -83,4 +83,4 @@ all types and functions used in [linked_lists.c](./linked_lists.c) and [10-check
 
 										
 * **13. ByteCode -> Python #1**
-  * [102-magic_calculation.py](./103-magic_calculation.py): Python function matching exactly a bytecode provided by Holberton School.
+  * [102-magic_calculation.py](./102-magic_calculation.py): Python function matching exactly a bytecode provided by Holberton School.
