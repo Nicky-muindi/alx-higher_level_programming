@@ -1,17 +1,93 @@
 # Python - import & modules
 
 In this project, I learned about importing and using functions and creating modules in Python. I further practiced using the builtinfunction `dir()` and using command line arguments within Python programs.
-## Tassks
+## Tasks
 
 * **0. Import a simple function from a simple file**
   * [0-add.py](./0-add.py): Python program that imports the function
-  `def add(a, b):` from the file [add_0.py](./add_0.py) and prints the
+  `def add(a, b):` from the file [add_0.py] below:
+```
+#!/usr/bin/python3
+def add(a, b):
+    """My addition function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
+```
+ and prints the
   result of the addition `1 + 2 = 3`.
   * Output: `<a value> + <b value> = <add(a, b) value>` followed by a new line.
 
 * **1. My first toolbox!**
   * [1-calculation.py](./1-calculation.py): Python program that imports functions
-  from the file [calculator_1.py](./1-calculator.py) and prints the result
+  from the file [calculator_1.py)below:
+```
+#!/usr/bin/python3
+def add(a, b):
+    """My addition function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
+
+
+def sub(a, b):
+    """My subtraction function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a - b
+    """
+    return (a - b)
+
+
+def mul(a, b):
+    """My multiplication function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a * b
+    """
+    return (a * b)
+
+
+def div(a, b):
+    """My division function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a / b
+    """
+    return int(a / b)
+
+guillaume@ubuntu:~/0x02$ ./1-calculation.py
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+guillaume@ubuntu:~/0x02$
+```
+ and prints the result
   of the addition, subtraction, multiplication and division of `10` and `5`.
   * Output: `<a value> <operator> <b value> = <operation(a, b) value>` followed by a new line.
 
@@ -36,10 +112,21 @@ In this project, I learned about importing and using functions and creating modu
 
 * **5. Everything can be imported**
   * [5-variable_load.py](./5-variable_load.py): Python program that imorts the
-  variable `a` from the file [variable_load_5.py](./variable_load_5.py) and prints its value.
+  variable `a` from the file [variable_load_5.py below:
+```
+#!/usr/bin/python3
+a = 98
+"""Simple variable
+"""
+
+guillaume@ubuntu:~/0x02$ ./5-variable_load.py
+98
+guillaume@ubuntu:~/0x02$
+```
+) and prints its value.
 
 * **6. Build my own calculator!**
-  * [100-my_calculator.py](./100-my_calculator.py): Python program that imports all functions
+  * [100-my_calculator.py](./100-my_calculator.py): Python program that impo@rts all functions
   from the file [calculator_1.py](./calculator_1.py) and handles basic operations.
   * Usage: `./100-my_calculator.py <a> <operator> <b>` followed by a new line.
   * Output: `<a> <operator> <b> = <result>` followed by a new line.
