@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 #5-save_to_json_file.py
 #Nicholas M  M Mwanza
-"""Save Object to a file"""
+'''task 5 module'''
+
+
 import json
 
 
 def save_to_json_file(my_obj, filename):
-    """an object to a text file using JSON 
-    representation
-    """
-    with open(filename, "w") as f:
+    '''writes obj to file in json format'''
+    with open(filename, mode='w', encoding='utf-8') as f:
         json.dump(my_obj, f)
