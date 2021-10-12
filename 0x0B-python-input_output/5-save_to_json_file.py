@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# 5-to_json_string.py
 """Save Object to a file"""
 import json
 
