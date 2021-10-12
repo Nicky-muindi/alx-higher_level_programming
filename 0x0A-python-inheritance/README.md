@@ -1,4 +1,4 @@
- Python - Inheritance
+#  Python - Inheritance
 
 I learned about Python class inheritance. I learned about the
 differences between super- and sub-classes while practicing inheritance,
@@ -24,7 +24,7 @@ Prototypes for functions written in this project:
 | `4-inherits_from.py`    | `def inherits_from(obj, a_class):`    |
 | `101-add_attribute.py`  | `def add_attribute(obj, att, value):` |
 
-## Tasks :page_with_curl:
+## Tasks 
 
 * **0. Lookup**
   * [0-lookup.py](./0-lookup.py): Python function that returns a list of available attributes
