@@ -7,7 +7,7 @@ and attributes.
 
 ## Tests
 
-* [tests](./tests): Folder of test files. Includes both Holberton-provided ones
+* [tests](./tests): Folder of test files. Includes both Alx-Software Engineering school through the Room -provided ones
 as well as the following two independently-developed:
     * [1-my_list.txt](./1-my_list.txt)
     * [7-base_geometry.txt](./7-base_geometry.txt)
