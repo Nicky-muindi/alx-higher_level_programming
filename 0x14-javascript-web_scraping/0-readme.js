@@ -1,15 +1,12 @@
 #!/usr/bin/node
 /*
-  -readme
+    - reads and prints the content of a file.
+    - the first argument is the file path.
+    - the content of the file is read in utf-8.
+    - if an error occurred during the reading, prints the error object.
 */
 const fs = require('fs');
-
-if (process.argv.length > 2) {
-    fs.readFile(process.argv[2], 'utf-8', (err, data) => {
-	if (err) {
-	    console.log(err);
-	} else {
-	    console.log(data);
-	}
-    });
-}
+fs.readFile(process.argv[2], 'utf-8', function (error, data) {
+    if (error) console.log(error);
+    else console.log(data);
+});
